@@ -6,7 +6,7 @@ letra = input("Digite uma letra: ")
 
 letra = letra.lower()
 
-if letra in 'aeiou':
+if letra in 'aeiouáéíóúàèìòùâêîôûãõäëïöü':
     print(f"A letra '{letra}' é uma Vogal.")
 
 # 'a' <= letra <= 'z
